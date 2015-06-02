@@ -1,5 +1,5 @@
 package utils.provider;
 
-public class Provider {
+public abstract class Provider {
 	
 }

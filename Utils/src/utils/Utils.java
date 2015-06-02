@@ -1,19 +1,22 @@
 package utils;
 
 import java.util.List;
+import utils.dealer.Dealer;
+import utils.entity.Entity;
+import utils.provider.Provider;
 
 public abstract class Utils {
 
-	public abstract List<Object> getEntities();
+	public abstract List<Entity> getEntities();
 	
-	public abstract void setEntities(List<Object> entities);
+	public abstract void setEntities(List<Entity> entities);
 	
-	public abstract List<Object> getProviders();
+	public abstract List<Provider> getProviders();
 	
-	public abstract void setProviders(List<Object> providers);
+	public abstract void setProviders(List<Provider> providers);
 	
-	public abstract List<Object> getDealers();
+	public abstract List<Dealer> getDealers();
 	
-	public abstract void setDealers(List<Object> dealers);	
+	public abstract void setDealers(List<Dealer> dealers);	
 	
 }
