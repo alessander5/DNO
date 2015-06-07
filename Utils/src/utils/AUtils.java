@@ -17,6 +17,8 @@ public abstract class AUtils {
 	
 	public abstract List<Dealer> getDealers();
 	
-	public abstract void setDealers(List<Dealer> dealers);	
+	public abstract void setDealers(List<Dealer> dealers);
+
+	public abstract List<Entity> getEntities(List<Entity> objects);
 	
 }
