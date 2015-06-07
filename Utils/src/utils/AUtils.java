@@ -5,7 +5,7 @@ import utils.dealer.Dealer;
 import utils.entity.Entity;
 import utils.provider.Provider;
 
-public abstract class Utils {
+public abstract class AUtils {
 
 	public abstract List<Entity> getEntities();
 	
