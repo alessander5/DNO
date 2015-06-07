@@ -1,11 +1,14 @@
 package main;
 
+import java.util.ArrayList;
 import java.util.Collection;
+
+import drugMain.MainDrug;
 import utils.plugin.Plugin;
 
 public class Main {
 	
-	static Collection<Plugin> plugins;
+	static Collection<Plugin> plugins = new ArrayList<Plugin>();
 	
 	public static void main(String[] args) {
 		initPlugins();
@@ -15,7 +18,7 @@ public class Main {
 	}
 
 	private static void initPlugins() {
-		//plugins.add(arg0);
+		plugins.add(new MainDrug());
 	}
 	
 	
