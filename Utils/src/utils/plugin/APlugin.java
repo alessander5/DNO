@@ -1,6 +1,6 @@
 package utils.plugin;
 
-public abstract class Plugin {
+public abstract class APlugin {
 	String name;
 	String version;
 	String description;
